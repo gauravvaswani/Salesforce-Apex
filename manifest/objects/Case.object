@@ -385,6 +385,42 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Product_Has_Extended_Warranty__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Field to record Boolean when product has extended warranty. Created as part of Apex Academy with David Liu</description>
+        <externalId>false</externalId>
+        <label>Product Has Extended Warranty</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Purchase_Date__c</fullName>
+        <description>Field to record product purchase date. Created as part of Apex Academy - David Liu</description>
+        <externalId>false</externalId>
+        <label>Product Purchase Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Product_Total_Warranty_Days__c</fullName>
+        <description>Field to record product total warranty days. Created as part of Apex Academy with David Liu</description>
+        <externalId>false</externalId>
+        <label>Product Total Warranty Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Product__c</fullName>
         <externalId>false</externalId>
         <label>Product</label>
@@ -539,6 +575,18 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Warranty_Summary__c</fullName>
+        <description>Field to record warranty summary. Created as part of Apex Academy with David Liu</description>
+        <externalId>false</externalId>
+        <label>Warranty Summary</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
     </fields>
     <webLinks>
         <fullName>UpsellCrosssellOpportunity</fullName>
