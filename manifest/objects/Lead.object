@@ -332,16 +332,26 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Grade__c</fullName>
-        <description>Field to record grade for a lead. Created as part of Apex Academy with David Liu</description>
-        <externalId>false</externalId>
-        <label>Grade</label>
-        <length>10</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
+        
+    <fullName>Grade__c</fullName>
+        
+    <description>Field to record grade for a lead. Created as part of Apex Academy with David Liu</description>
+        
+    <externalId>false</externalId>
+        
+    <label>Grade</label>
+        
+    <length>10</length>
+        
+    <required>false</required>
+        
+    <trackFeedHistory>false</trackFeedHistory>
+        
+    <type>Text</type>
+        
+    <unique>false</unique>
+        
+</fields>
     <fields>
         <fullName>HasOptedOutOfEmail</fullName>
         <trackFeedHistory>false</trackFeedHistory>
@@ -461,17 +471,28 @@
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>Score__c</fullName>
-        <description>Field to record score of a lead. Created as part of Apex Academy with David Liu</description>
-        <externalId>false</externalId>
-        <label>Score</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
+        
+    <fullName>Score__c</fullName>
+        
+    <description>Field to record score of a lead. Created as part of Apex Academy with David Liu</description>
+        
+    <externalId>false</externalId>
+        
+    <label>Score</label>
+        
+    <precision>18</precision>
+        
+    <required>false</required>
+        
+    <scale>0</scale>
+        
+    <trackFeedHistory>false</trackFeedHistory>
+        
+    <type>Number</type>
+        
+    <unique>false</unique>
+        
+</fields>
     <fields>
         <fullName>SICCode__c</fullName>
         <externalId>false</externalId>
