@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Amazon</fullName>
+        <default>false</default>
+        <label>Amazon</label>
+    </customValue>
+    <customValue>
+        <fullName>Google</fullName>
+        <default>false</default>
+        <label>Google</label>
+    </customValue>
+    <customValue>
+        <fullName>Microsoft</fullName>
+        <default>false</default>
+        <label>Microsoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Oracle</fullName>
+        <default>false</default>
+        <label>Oracle</label>
+    </customValue>
+    <customValue>
+        <fullName>Salesforce</fullName>
+        <default>false</default>
+        <label>Salesforce</label>
+    </customValue>
+    <customValue>
+        <fullName>Yahoo!</fullName>
+        <default>false</default>
+        <label>Yahoo!</label>
+    </customValue>
+    <description>List of opportunity competitors. Created as part of Apex Academy with David Liu</description>
+    <masterLabel>Opportunity Competitor</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
