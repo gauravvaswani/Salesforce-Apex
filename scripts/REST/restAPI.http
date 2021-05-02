@@ -1,0 +1,43 @@
+GET {{Developer}}/services/data HTTP/1.1
+
+###
+GET {{Developer}}/services/data/v51.0
+Authorization: Bearer {{Token}}
+
+###
+GET {{Developer}}/services/data/v51.0
+Authorization: Bearer {{Token}}
+Accept: application/xml
+
+###
+GET {{Developer}}/services/data/v51.0/sobjects/account/describe
+Authorization: Bearer {{Token}}
+
+###
+POST {{Developer}}/services/data/v51.0/sobjects/account
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+{
+    "Name"         : "VS Code",
+    "ShippingCity" : "London"
+}
+
+###
+POST {{Developer}}/services/data/v51.0/sobjects/account
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{Token}}
+
+{
+    "Name"        : "Blackbeards Grog Emporium",
+    "Description" : "The finest grog in the seven seas."
+}
+
+###
+GET {{Developer}}/services/data/v51.0/query/?q=SELECT+Id,Name+FROM+Account+WHERE+ShippingCity='London'
+Authorization: Bearer {{Token}}
+
+###
+curl {{Developer}}/services/data/
