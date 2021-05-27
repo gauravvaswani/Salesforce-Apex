@@ -1,0 +1,23 @@
+<aura:component controller="QuickActionCalloutCtrl">
+        <aura:attribute name="response" type="Map"/>
+        <aura:attribute name="ListofCurrency" type="String[]"/>
+
+        <div class="slds-m-around_medium">
+            <!-- Header part -->
+            <div class="slds-page-header" role="banner">
+                <div class="slds-media_body">
+                    <p class="slds-page-header__title slds-truncate" title="Foreign Exchange Rates">Foreign Exchange Rates by HTTP Callout</p>
+                    <lightning:button variant="brand" label="Make Callout" onclick="{! c.calloutCtrl }" />
+                </div>
+            </div>
+            <!-- Header part close -->
+            <h3>Base : {!v.response.base}</h3>
+            <h3>Date : {!v.response.date}</h3>
+            <!-- iterate the list of Currency -->
+            <ul class="slds-list--dotted">
+                <aura:iteration items="{!v.ListofCurrency}" var="rateList">
+                    <li>{!rateLst}</li>
+                </aura:iteration>
+            </ul>
+        </div>
+</aura:component>	
