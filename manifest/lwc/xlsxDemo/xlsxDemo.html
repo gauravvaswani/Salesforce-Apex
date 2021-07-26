@@ -1,0 +1,65 @@
+<template>
+    <div class="margin-bottom-2rem">
+      <lightning-card title="XLSX Workbook" icon-name="doctype:gsheet">
+        <div class="slds-m-around_medium">
+          <button onclick={download} class="slds-button slds-button_success">Download</button>
+          <!--xlsxMain component calling-->
+          <c-xlsx-main
+            header-list={xlsHeader}
+            filename={filename}
+            worksheet-name-list={workSheetNameList}
+            sheet-data={xlsData}
+          ></c-xlsx-main>
+        </div>
+        <div class="slds-grid slds-wrap slds-m-around_medium">
+          <!--Account Table-->
+          <div class="slds-col slds-size_1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 slds-m-vertical_x-small">
+            <h2 class="slds-text-heading_medium slds-m-vertical_x-small">Account Table</h2>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+                <thead>
+                    <tr class="slds-line-height_reset">
+                        <template for:each={accountHeader} for:item="header">
+                        <th key={header} scope="col">{header}</th>
+                        </template>
+                    </tr>
+              </thead>
+              <tbody>
+                <template for:each={accountData} for:item="item">
+                    <tr key={item.Id}>
+                      <td>{item.Id}</td>
+                      <td>{item.Name}</td>
+                      <td>{item.Phone}</td>
+                      <td>{item.NumberOfEmployees}</td>
+                    </tr>
+                  </template>
+              </tbody>
+            </table>
+          </div>
+          <!--Contact Table-->
+          <div class="slds-col slds-size_1-of-1 slds-medium-size_12-of-12 slds-large-size_12-of-12 slds-m-vertical_x-small">
+            <h2 class="slds-text-heading_medium slds-m-vertical_x-small">Contact Table</h2>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered">
+              <thead>
+                <tr class="slds-line-height_reset">
+                    <template for:each={contactHeader} for:item="header">
+                      <th key={header}>{header}</th>
+                    </template>
+                  </tr>
+              </thead>
+              <tbody>
+                <template for:each={contactData} for:item="item">
+                    <tr key={item.Id}>
+                      <td>{item.Name}</td>
+                      <td>{item.Phone}</td>
+                      <td>{item.Email}</td>
+                      <td>{item.Title}</td>
+                      <td>{item.Id}</td>
+                    </tr>
+                  </template>
+              </tbody>  
+            </table>
+          </div>
+        </div>
+      </lightning-card>
+    </div>
+  </template>
