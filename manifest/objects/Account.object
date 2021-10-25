@@ -292,17 +292,28 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Count_of_Organizational_Structure__c</fullName>
-        <description>Created as part of Apex Academy with David Liu</description>
-        <externalId>false</externalId>
-        <label>Count of Organizational Structure</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
+        
+    <fullName>Count_of_Organizational_Structure__c</fullName>
+        
+    <description>Created as part of Apex Academy with David Liu</description>
+        
+    <externalId>false</externalId>
+        
+    <label>Count of Organizational Structure</label>
+        
+    <precision>18</precision>
+        
+    <required>false</required>
+        
+    <scale>0</scale>
+        
+    <trackFeedHistory>false</trackFeedHistory>
+        
+    <type>Number</type>
+        
+    <unique>false</unique>
+        
+</fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
@@ -390,56 +401,106 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Organizational_Structure__c</fullName>
-        <description>Created as part of Apex Academy with David Liu</description>
-        <externalId>false</externalId>
-        <label>Organizational Structure</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Hierarchical Structure</fullName>
-                    <default>false</default>
-                    <label>Hierarchical Structure</label>
-                </value>
-                <value>
-                    <fullName>Matrix Structure</fullName>
-                    <default>false</default>
-                    <label>Matrix Structure</label>
-                </value>
-                <value>
-                    <fullName>Horizontal/Flat Structure</fullName>
-                    <default>false</default>
-                    <label>Horizontal/Flat Structure</label>
-                </value>
-                <value>
-                    <fullName>Network Structure</fullName>
-                    <default>false</default>
-                    <label>Network Structure</label>
-                </value>
-                <value>
-                    <fullName>Divisional Structur</fullName>
-                    <default>false</default>
-                    <label>Divisional Structur</label>
-                </value>
-                <value>
-                    <fullName>Line Organizational Structure</fullName>
-                    <default>false</default>
-                    <label>Line Organizational Structure</label>
-                </value>
-                <value>
-                    <fullName>Team-based Organizational Structure</fullName>
-                    <default>false</default>
-                    <label>Team-based Organizational Structure</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>7</visibleLines>
-    </fields>
+        
+    <fullName>Organizational_Structure__c</fullName>
+        
+    <description>Created as part of Apex Academy with David Liu</description>
+        
+    <externalId>false</externalId>
+        
+    <label>Organizational Structure</label>
+        
+    <required>false</required>
+        
+    <trackFeedHistory>false</trackFeedHistory>
+        
+    <type>MultiselectPicklist</type>
+        
+    <valueSet>
+            
+        <restricted>true</restricted>
+            
+        <valueSetDefinition>
+                
+            <sorted>false</sorted>
+                
+            <value>
+                    
+                <fullName>Hierarchical Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Hierarchical Structure</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Matrix Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Matrix Structure</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Horizontal/Flat Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Horizontal/Flat Structure</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Network Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Network Structure</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Divisional Structur</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Divisional Structur</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Line Organizational Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Line Organizational Structure</label>
+                    
+            </value>
+                
+            <value>
+                    
+                <fullName>Team-based Organizational Structure</fullName>
+                    
+                <default>false</default>
+                    
+                <label>Team-based Organizational Structure</label>
+                    
+            </value>
+                
+        </valueSetDefinition>
+            
+    </valueSet>
+        
+    <visibleLines>7</visibleLines>
+        
+</fields>
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
